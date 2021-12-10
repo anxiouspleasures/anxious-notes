@@ -12,18 +12,22 @@
 }
 
 .component-emoji-result-row img {
-  
   height: 600px;
   padding-right: 10px;
+  float: left;
 }
-
+.component-emoji-result-row textarea {
+  height: 100%;
+  width: 50%;
+  
+}
 .component-emoji-result-row .title {
   position: relative;
   top: -8px;
+
 }
 
 .component-emoji-result-row .info {
-  float: right;
   position: relative;
   top: 8px;
   right: 10px;

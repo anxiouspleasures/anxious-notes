@@ -1,4 +1,4 @@
-import emojiList from "./emojiList.json";
+import emojiList from "./notes.json";
 
 export default function filterEmoji(searchText, maxResults) {
   return emojiList

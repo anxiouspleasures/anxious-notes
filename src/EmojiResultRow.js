@@ -17,7 +17,9 @@ export default class EmojiResultsRow extends PureComponent {
         data-clipboard-text={this.props.symbol}
       >
         <img alt={this.props.symbol} src={src} />
-        <span className="title">{this.props.symbol + ": " + this.props.title}</span>
+        <span className="title">
+          <textarea value={this.props.symbol + ": " + this.props.title}></textarea>
+          </span>
       </div>
     );
   }
